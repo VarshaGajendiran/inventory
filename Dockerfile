@@ -28,7 +28,7 @@ WORKDIR /app
  
 # Copy the built jar file from the build stage
 
-COPY --from=builder /app/target/*.jar productinventorysystem.war
+COPY --from=builder /app/target/*.war productinventorysystem.war
  
 # Expose the application port
 
